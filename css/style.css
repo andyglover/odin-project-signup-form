@@ -11,17 +11,15 @@ div{
     width:50%;
 }
 body {
-    
     display:flex;
-    color:#fff;
 }
 
 .splash{
     background-image: url("../img/halie-west-unsplash.jpg");
+    color:#fff;
     background-size: cover;
     display:flex;
     flex-direction: column;
-    
     justify-content: center;
 }
 
