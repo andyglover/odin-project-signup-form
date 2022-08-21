@@ -1,3 +1,8 @@
+:root {
+    --darkgreen: 92,20%,35%; /* HSL for #596d48 */
+    --darkergreen: 92,20%,25%; /* darker */
+}
+
 @font-face {
     font-family: Norse-Bold;
     src: url(../fonts/Norse-Bold.otf);
@@ -89,10 +94,14 @@ button {
     width:fit-content;
     color:#fff;
     font-weight: bold;
-    background-color:#596d48;
+    background-color:hsl(var(--darkgreen));
     border:0;
     border-radius:5px;
     padding:15px 40px;
+}
+
+button:hover{
+    background-color: hsl(var(--darkergreen));
 }
 
 .login {
@@ -106,14 +115,16 @@ button {
 .login a{
     font-weight: bold;
 }
+
 .login a:link,
 .login a:visited,
 .login a:active {
-    color: #596d48;
+    color: hsl(var(--darkgreen));
 }
 
 .login a:hover {
     text-decoration: underline;
+    color: hsl(var(--darkergreen));
 }
 
 input {
