@@ -5,10 +5,11 @@
 html,body{
     height:100%;
     width:100%;
+    min-width: 1150px;
+    max-width: 1350px;
 }
 div{
     height:100%;
-    width:50%;
 }
 body {
     display:flex;
@@ -21,6 +22,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: center;
+    min-width:535px;
 }
 
 .logo {
@@ -48,6 +50,22 @@ body {
 .photo-credit a:hover {
     text-decoration: underline;
 }
+form{
+    display:flex;
+    flex-wrap:wrap;
+}
 form>li{
 list-style: none;
+display:inline;
+width:260px;
+}
+label{
+    display:block;
+}
+.content{
+    
+    padding-left:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
