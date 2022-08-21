@@ -53,19 +53,84 @@ body {
 form{
     display:flex;
     flex-wrap:wrap;
+    
 }
-form>li{
+
+form li{
 list-style: none;
 display:inline;
 width:260px;
+margin-bottom: 25px;
 }
 label{
     display:block;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-bottom:5px;
 }
 .content{
-    
+    background-color: #f9fafb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:18px;
+    font-weight:bold;
     padding-left:50px;
     display:flex;
     flex-direction: column;
     justify-content: center;
+}
+button {
+    width:fit-content;
+    color:#fff;
+    font-weight: bold;
+    background-color:#596d48;
+    border:0;
+    border-radius:5px;
+    padding:15px 40px;
+}
+
+.login {
+    font-size: 14px;
+    font-weight:normal;
+}
+
+.login * {
+    text-decoration: none;
+}
+.login a{
+    font-weight: bold;
+}
+.login a:link,
+.login a:visited,
+.login a:active {
+    color: #596d48;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+input {
+    height: 20px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: 1px solid #1d4ed8;
+}
+.error {
+    outline: 1px solid red;
+}
+.password::after{
+    margin-top: 2px;
+    display:block;
+    font-weight: normal;
+    color:red;
+    font-size:10px;
+    content: "* Passwords do not match";
+}
+legend{
+    width:100%;
+    margin-bottom: 25px;
 }
