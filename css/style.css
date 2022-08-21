@@ -2,9 +2,23 @@
     font-family: Norse-Bold;
     src: url(../fonts/Norse-Bold.otf);
 }
-
+html,body{
+    height:100%;
+    width:100%;
+}
+div{
+    height:100%;
+    width:50%;
+}
 body {
-    background-image: url("../img/halie-west-unsplash.jpg");
     font-family: Norse-Bold;
+    display:flex;
 }
 
+.splash{
+    background-image: url("../img/halie-west-unsplash.jpg");
+    background-size: cover;
+}
+.content{
+
+}
