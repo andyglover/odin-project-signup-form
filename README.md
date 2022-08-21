@@ -3,10 +3,11 @@ Repo for my sign up form project for theodinproject: https://www.theodinproject.
 This project is live at: https://www.andyglover.io/odin-project-signup-form/
 
 Credits:
-
-Background image by Halie West from Unsplash:
+-Background image by Halie West from Unsplash:
 https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
-Odin Project Logo from TheOdinProject
+-Odin Project Logo from TheOdinProject
+https://www.theodinproject.com/
 
-Font: Norse Bold
+-Font: Norse Bold by Joël Carrouché
+https://www.joelcarrouche.com/
