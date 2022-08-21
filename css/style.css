@@ -43,6 +43,13 @@ body {
     bottom:10px;
     align-self: center;
 }
+.photo-credit * {
+    color:#fff;
+    text-decoration: none;
+}
+.photo-credit a:hover {
+    text-decoration: underline;
+}
 .content{
 
 }
