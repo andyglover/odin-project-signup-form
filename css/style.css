@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
 body {
     background-image: url("../img/halie-west-unsplash.jpg");
+    font-family: Norse-Bold;
 }
+
