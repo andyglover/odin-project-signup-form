@@ -136,6 +136,11 @@ input {
 input:focus {
     outline: 1px solid #1d4ed8;
 }
+
+input:hover {
+    background-color: #eee;
+}
+
 .error {
     outline: 1px solid red;
 }
